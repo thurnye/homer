@@ -1,0 +1,21 @@
+.mighty-roar{
+    margin-top: 45px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homer-Img {
+    width: 300px;
+    height: 400px;
+}
+.fact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+.fact h3{
+    font-size: 12px;
+}

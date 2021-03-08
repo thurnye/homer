@@ -1,0 +1,121 @@
+.landingPage{
+    background-color: rgb(43, 129, 62);
+    margin: auto;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: white;
+}
+.welcome{
+    margin: 25px;
+    border: 5px solid white;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.homer-name {
+    display:inline-block;
+    overflow:hidden;
+    white-space:nowrap;
+}
+.name{
+    margin-right: 10px;
+}
+  
+.name:first-of-type {   
+animation: showup 40s infinite;
+}
+
+.roar:last-of-type {
+width:0px;
+animation: reveal 10s infinite;
+}
+
+.roar:last-of-type span {
+margin-left:-355px;
+animation: slidein 40s 1;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:400px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:400px;}
+}
+  
+
+
+
+
+
+
+
+
+
+.homer{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align-last: center;
+}
+
+.homer-logo{
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+}
+.enter {
+    animation:enter 5s ease infinite;
+  }
+  @keyframes enter {
+    0% {
+      transform:scale(1);
+    }
+    5% {
+      transform:scale(1.25);
+    }
+    20% {
+      transform:scale(1);
+    }
+    30% {
+      transform:scale(1);
+    }
+    35% {
+      transform:scale(1.25);
+    }
+    50% {
+      transform:scale(1);
+    }
+    55% {
+      transform:scale(1.25);
+    }
+    70% {
+      transform:scale(1);
+    }
+  }
